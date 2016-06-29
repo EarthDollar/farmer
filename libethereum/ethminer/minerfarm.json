@@ -1,0 +1,7 @@
+[
+	{ "name": "ed_getWork", "params": [], "order": [], "returns": []},
+	{ "name": "ed_submitWork", "params": ["", "", ""], "order": [], "returns": true},
+	{ "name": "ed_submitHashrate", "params": ["", ""], "order": [], "returns": true},
+	{ "name": "ed_awaitNewWork", "params": [], "order": [], "returns": []},
+	{ "name": "ed_progress", "params": [], "order": [], "returns": true}
+]
