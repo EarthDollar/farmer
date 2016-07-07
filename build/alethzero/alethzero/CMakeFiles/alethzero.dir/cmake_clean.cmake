@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "alethzero_automoc.cpp"
+  "ui_AlethZero.h"
+  "ui_Connect.h"
+  "CMakeFiles/alethzero.dir/NetworkSettings.cpp.o"
+  "CMakeFiles/alethzero.dir/Connect.cpp.o"
+  "CMakeFiles/alethzero.dir/main.cpp.o"
+  "CMakeFiles/alethzero.dir/SettingsDialog.cpp.o"
+  "CMakeFiles/alethzero.dir/TransactDialog.cpp.o"
+  "CMakeFiles/alethzero.dir/AccountNamerPlugin.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/log/LogPanel.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/blockchain/PrivateChain.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/blockchain/ExportState.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/blockchain/BlockList.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/blockchain/SpecialBlockChain.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/transactions/InjectTransactions.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/transactions/Transact.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/transactions/GasPricing.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/accounts/BrainWallet.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/accounts/AllAccounts.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/accounts/ImportKey.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/accounts/NewAccount.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/EVMJIT.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/namers/NameRegNamer.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/namers/OtherAccounts.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/namers/OurAccounts.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/whisper/WhisperPeers.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/whisper/Whisper.cpp.o"
+  "CMakeFiles/alethzero.dir/plugins/Mining.cpp.o"
+  "CMakeFiles/alethzero.dir/Plugin.cpp.o"
+  "CMakeFiles/alethzero.dir/AlethZero.cpp.o"
+  "CMakeFiles/alethzero.dir/ZeroFace.cpp.o"
+  "CMakeFiles/alethzero.dir/alethzero_automoc.cpp.o"
+  "alethzero.pdb"
+  "alethzero"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/alethzero.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

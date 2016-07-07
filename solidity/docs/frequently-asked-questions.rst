@@ -21,7 +21,7 @@ advanced features like inheritance, libraries, complex
 user-defined types and a bytecode optimizer.
 
 Solidity contracts can be compiled a few different ways (see below) and the
-resulting output can be cut/pasted into a geth console to deploy them to the
+resulting output can be cut/pasted into a ged console to deploy them to the
 Ethereum blockchain.
 
 There are some `contract examples <https://github.com/fivedogit/solidity-baby-steps/tree/master/contracts/>`_ by fivedogit and
@@ -132,7 +132,7 @@ What is the difference between a function marked ``constant`` and one that is no
 change state (this is not yet enforced by the compiler). In other words, a
 constant function cannot save or update any variables within the contract or wider
 blockchain. These functions are called using ``c.someFunction(...)`` from
-geth or any other web3.js environment.
+ged or any other web3.js environment.
 
 "non-constant" functions (those lacking the ``constant`` specifier) must be called
 with ``c.someMethod.sendTransaction({from:eth.accounts[x], gas: 1000000});``
@@ -228,7 +228,7 @@ What are ``event``'s and why do we need them?
 
 Let us suppose that you need a contract to alert the outside world when
 something happens. The contract can fire an event, which can be listened to
-from web3 (inside geth or a web application). The main advantage of events
+from web3 (inside ged or a web application). The main advantage of events
 is that they are stored in a special way on the blockchain so that it
 is very easy to search for them.
 

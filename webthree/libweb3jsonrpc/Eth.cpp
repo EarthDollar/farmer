@@ -46,7 +46,7 @@ const unsigned dev::SensibleHttpThreads = 1;
 #else
 const unsigned dev::SensibleHttpThreads = 4;
 #endif
-const unsigned dev::SensibleHttpPort = 8545;
+const unsigned dev::SensibleHttpPort = 8811;
 
 Eth::Eth(eth::Interface& _eth, eth::AccountHolder& _ethAccounts):
 	m_eth(_eth),

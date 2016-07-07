@@ -560,7 +560,7 @@ ApplicationWindow {
 		id: appSettings
 		property alias gasEstimation: gasEstimationAction.checked
 		property alias optimizeCode: optimizeCodeAction.checked
-		property string nodeAddress: "http://localhost:8545"
+		property string nodeAddress: "http://localhost:8811"
 		property alias displayCalls: displayCallsAction.checked
 		property int systemPointSize: 11
 		function getFormattedPointSize()

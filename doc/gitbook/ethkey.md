@@ -252,14 +252,14 @@ To double-check, we can list the keys:
 
 All restored!
 
-### Importing a key from another client (e.g. Geth)
+### Importing a key from another client (e.g. Ged)
 
-Because our keys all share the same format it's really easy to import keys from other clients like Geth. In fact it's exactly the same process as restoring a key from a previous backup as we did in the last step.
+Because our keys all share the same format it's really easy to import keys from other clients like Ged. In fact it's exactly the same process as restoring a key from a previous backup as we did in the last step.
 
-If we assume we have a geth key at `mygethkey.json`, then to import it to use `eth`, simply use:
+If we assume we have a ged key at `mygedkey.json`, then to import it to use `ed`, simply use:
 
 ```
-> ethkey import mygethkey.json "My Old Geth Key"
+> ethkey import mygedkey.json "My Old Ged Key"
 ```
 
 It will prompt you for your passphrase to ascertain the address for the key.
