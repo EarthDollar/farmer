@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -std=c++11 -fpermissive -fuse-ld=gold -O3 -DNDEBUG -DETH_RELEASE  -shared -Wl,-soname,libethash.so -o libethash.so CMakeFiles/ethash.dir/io.c.o CMakeFiles/ethash.dir/internal.c.o CMakeFiles/ethash.dir/io_posix.c.o CMakeFiles/ethash.dir/sha3_cryptopp.cpp.o -lcryptopp 
