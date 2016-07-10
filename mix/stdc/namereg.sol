@@ -69,6 +69,6 @@ NameReg(addrNameReg).register("Some Contract");
 var abiNameReg = [{"constant":true,"inputs":[{"name":"name","type":"string32"}],"name":"addressOf","outputs":[{"name":"addr","type":"address"}]},{"constant":false,"inputs":[],"name":"kill","outputs":[]},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"nameOf","outputs":[{"name":"name","type":"string32"}]},{"constant":false,"inputs":[{"name":"name","type":"string32"}],"name":"register","outputs":[]},{"constant":false,"inputs":[],"name":"unregister","outputs":[]}];
 
 // Example JS use:
-web3.eth.contract(addrNameReg, abiNameReg).register("My Name").transact();
+web3.ed.contract(addrNameReg, abiNameReg).register("My Name").transact();
 
 */

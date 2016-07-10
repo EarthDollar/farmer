@@ -280,7 +280,7 @@ static tuple<vector<string>, bytes, string> userInputToCode(string const& _user,
 			else
 			{
 				solidity = "<h4>Solidity</h4>";
-				solidity += "<pre>var " + compiler.defaultContractName() + " = web3.eth.contract(" + QString::fromStdString(compiler.interface()).replace(QRegExp("\\s"), "").toHtmlEscaped().toStdString() + ");</pre>";
+				solidity += "<pre>var " + compiler.defaultContractName() + " = web3.ed.contract(" + QString::fromStdString(compiler.interface()).replace(QRegExp("\\s"), "").toHtmlEscaped().toStdString() + ");</pre>";
 				solidity += "<pre>" + QString::fromStdString(compiler.solidityInterface()).toHtmlEscaped().toStdString() + "</pre>";
 				solidity += "<pre>" + QString::fromStdString(getFunctionHashes(compiler, "")).toHtmlEscaped().toStdString() + "</pre>";
 				LinkerObject const& obj = compiler.object();

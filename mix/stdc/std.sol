@@ -43,7 +43,7 @@ var abiConfig = [{"constant":false,"inputs":[],"name":"kill","outputs":[]},{"con
 // Example JS use:
 var addrConfig = "0x661005d2720d855f1d9976f88bb10c1a3398c77f";
 var addrNameReg;
-web3.eth.contract(addrConfig, abiConfig).lookup(1).call().then(function(r){ addrNameReg = r; })
+web3.ed.contract(addrConfig, abiConfig).lookup(1).call().then(function(r){ addrNameReg = r; })
 
 */
 
@@ -113,6 +113,6 @@ NameReg(addrNameReg).register("Some Contract");
 var abiNameReg = [{"constant":true,"inputs":[{"name":"name","type":"bytes32"}],"name":"addressOf","outputs":[{"name":"addr","type":"address"}]},{"constant":false,"inputs":[],"name":"kill","outputs":[]},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"nameOf","outputs":[{"name":"name","type":"bytes32"}]},{"constant":false,"inputs":[{"name":"name","type":"bytes32"}],"name":"register","outputs":[]},{"constant":false,"inputs":[],"name":"unregister","outputs":[]}];
 
 // Example JS use:
-web3.eth.contract(addrNameReg, abiNameReg).register("My Name").transact();
+web3.ed.contract(addrNameReg, abiNameReg).register("My Name").transact();
 
 */

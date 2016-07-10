@@ -5419,7 +5419,7 @@ var Net = function (web3) {
     });
 };
 
-/// @returns an array of objects describing web3.eth api properties
+/// @returns an array of objects describing web3.ed api properties
 var properties = function () {
     return [
         new Property({
@@ -5644,7 +5644,7 @@ module.exports = Shh;
 
 var Method = require('../method');
 
-/// @returns an array of objects describing web3.eth.filter api methods
+/// @returns an array of objects describing web3.ed.filter api methods
 var eth = function () {
     var newFilterCall = function (args) {
         var type = args[0];

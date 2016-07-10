@@ -48,7 +48,7 @@ updateContracts = function(contracts) {
 		window.ctrAddresses = {};
 		window.frames["preview"].ctrAddresses = {}
 		for (var c in contracts) {
-			var contract = window.web3.eth.contract(contracts[c].interface).at(contracts[c].address);
+			var contract = window.web3.ed.contract(contracts[c].interface).at(contracts[c].address);
 			window.contracts[c] = {
 				address: contracts[c].address,
 				interface: contracts[c].interface,

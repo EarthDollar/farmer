@@ -40,6 +40,6 @@ var abiConfig = [{"constant":false,"inputs":[],"name":"kill","outputs":[]},{"con
 // Example JS use:
 var addrConfig = "0x661005d2720d855f1d9976f88bb10c1a3398c77f";
 var addrNameReg;
-web3.eth.contract(addrConfig, abiConfig).lookup(1).call().then(function(r){ addrNameReg = r; })
+web3.ed.contract(addrConfig, abiConfig).lookup(1).call().then(function(r){ addrNameReg = r; })
 
 */

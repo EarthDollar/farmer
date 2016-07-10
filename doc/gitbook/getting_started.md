@@ -97,13 +97,13 @@ As it synchronises, the latest block number will constantly rise, usually rather
 You can check its progress by using the console to get the latest block number. To do this, type:
 
 ```
-web3.eth.blockNumber
+web3.ed.blockNumber
 ```
 
 You'll end up with something like:
 
 ```
-> web3.eth.blockNumber
+> web3.ed.blockNumber
 11254
 ```
 
@@ -112,21 +112,21 @@ You'll end up with something like:
 You can easily check to see if you have ether in your account using the `eth.getBalance` function of `web3`. For this to work you'll need the address of which to get the balance. In my case, the address is the aforementioned `XE712F44QOZBKNLD20DLAEE8O2YJ7XRGP4`:
 
 ```
-> web3.eth.getBalance("XE712F44QOZBKNLD20DLAEE8O2YJ7XRGP4")
+> web3.ed.getBalance("XE712F44QOZBKNLD20DLAEE8O2YJ7XRGP4")
 0
 ```
 
 That's not much, but then it is after all a newly cerated account. Let's query the balance of an account that actually has some funds, the Ethereum Foundation wallet:
 
 ```
-> web3.eth.getBalance("XE86PXQKKKORDZQ1RWT9LGUGYZ1U57A56Y2")
+> web3.ed.getBalance("XE86PXQKKKORDZQ1RWT9LGUGYZ1U57A56Y2")
 11901464239480000000000000
 ```
 
 Ooh, rather a lot more. The answer is given in Wei, the lowest denomination of ether. To work out what this is in sensible terms, use `web3.fromWei` and provide a sensible unit, e.g. `grand` (a grand, for those unfamiliar with English slang, is one thousand Ether):
 
 ```
-> web3.fromWei(web3.eth.getBalance("de0b295669a9fd93d5f28d9ec85e40f4cb697bae"), 'grand')
+> web3.fromWei(web3.ed.getBalance("de0b295669a9fd93d5f28d9ec85e40f4cb697bae"), 'grand')
 11901.46423948
 ```
 

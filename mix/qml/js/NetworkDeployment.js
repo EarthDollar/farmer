@@ -369,7 +369,7 @@ function packageDapp(addresses)
 				"\tinterface: " + codeModel.contracts[name].contractInterface + ",\n" +
 				"\taddress: \"" + addresses[c] + "\"\n" +
 				"};\n" +
-				contractAccessor + ".contractClass = web3.eth.contract(" + contractAccessor + ".interface);\n" +
+				contractAccessor + ".contractClass = web3.ed.contract(" + contractAccessor + ".interface);\n" +
 				contractAccessor + ".contract = " + contractAccessor + ".contractClass.at(" + contractAccessor + ".address);\n";
 		if (name !== c)
 		{

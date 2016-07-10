@@ -6,7 +6,7 @@ web3 - Ethereum JavaScript API
 
 contracts: A collection of contract objects. A key to the collection is the contract name. A value is an object with the following properties:
 
-contract: contract object instance (created as in web3.eth.contract)
+contract: contract object instance (created as in web3.ed.contract)
 
 address: contract address from the last deployed state (see below)
 
