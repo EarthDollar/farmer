@@ -1,0 +1,7 @@
+<RCC>
+<qresource prefix="/">
+<file alias="setup.js">/home/tzunami/git/farmer/mix/../webthree-helpers/js/setup.js</file>
+<file alias="admin.js">/home/tzunami/git/farmer/mix/../webthree-helpers/js/admin.js</file>
+<file alias="web3.js">/home/tzunami/git/farmer/mix/../web3.js/dist/web3.js</file>
+</qresource>
+</RCC>
