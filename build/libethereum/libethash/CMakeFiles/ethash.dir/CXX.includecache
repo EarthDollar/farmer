@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tzunami/git/farmer/libethereum/libethash/sha3_cryptopp.cpp
+stdint.h
+-
+cryptopp/sha3.h
+-
+

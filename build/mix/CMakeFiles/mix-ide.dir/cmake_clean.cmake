@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "mix-ide_automoc.cpp"
+  "qrc_res.cpp"
+  "qrc_qml.cpp"
+  "qrc_web.cpp"
+  "qrc_web3.cpp"
+  "web3.qrc"
+  "CMakeFiles/mix-ide.dir/qrc_res.cpp.o"
+  "CMakeFiles/mix-ide.dir/qrc_qml.cpp.o"
+  "CMakeFiles/mix-ide.dir/qrc_web.cpp.o"
+  "CMakeFiles/mix-ide.dir/qrc_web3.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/Clipboard.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/HttpServer.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/main.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QBasicNodeDefinition.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QFunctionDefinition.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QBigInt.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/DebuggingStateWrapper.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/ClientModel.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/CodeModel.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/ContractCallDataEncoder.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/CodeHighlighter.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/Exceptions.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/SortFilterProxyModel.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/FileIo.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QVariableDeclaration.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/MixClient.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/MixApplication.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QEther.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/Web3Server.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/QContractDefinition.cpp.o"
+  "CMakeFiles/mix-ide.dir/src/InverseMouseArea.cpp.o"
+  "CMakeFiles/mix-ide.dir/mix-ide_automoc.cpp.o"
+  "mix-ide.pdb"
+  "mix-ide"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mix-ide.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

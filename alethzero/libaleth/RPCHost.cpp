@@ -63,7 +63,7 @@ void RPCHost::init(AlethFace* _aleth)
 		new rpc::Personal(_aleth->keyManager(), *m_accountHolder), adminEth, new rpc::AdminNet(*_aleth->web3(), *m_sm.get()),
 		new rpc::AdminUtils(*m_sm.get()), new rpc::Debug(*_aleth->web3()->ethereum())
 	));
-	m_httpConnectorId = m_rpcServer->addConnector(new dev::SafeHttpServer(8811, "", "", 4));
+	m_httpConnectorId = m_rpcServer->addConnector(new dev::SafeHttpServer(8545, "", "", 4));
 	m_ipcConnectorId = m_rpcServer->addConnector(new dev::IpcServer("ged"));
 	m_rpcServer->StartListening();
 }
