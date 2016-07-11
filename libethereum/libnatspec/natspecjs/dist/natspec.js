@@ -291,26 +291,28 @@ if (process.env.NODE_ENV !== 'build') {
     var BigNumber = require('bignumber.js'); // jshint ignore:line
 }
 
-var ETH_UNITS = [ 
-    'wei', 
-    'Kwei', 
-    'Mwei', 
-    'Gwei', 
-    'szabo', 
-    'finney', 
-    'ether', 
-    'grand', 
-    'Mether', 
-    'Gether', 
-    'Tether', 
-    'Pether', 
-    'Eether', 
-    'Zether', 
-    'Yether', 
-    'Nether', 
-    'Dether', 
-    'Vether', 
-    'Uether' 
+var ETH_UNITS = [
+    'seed',
+    'little',
+    'so',
+    'maes',
+    'skydancer',
+    'nottaway',
+    'jack',
+    'tien',
+    'luck',
+    'chief',
+    'wawatie',
+    'ratt',
+    'rajpal',
+    'fish',
+    'tilly',
+    'kam',
+    'penny',
+    'dime',
+    'tree',
+    'quarter',
+    'nickel'
 ];
 
 module.exports = {
