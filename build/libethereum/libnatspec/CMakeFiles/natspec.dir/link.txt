@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -std=c++11 -fpermissive -fuse-ld=gold -O2 -g -DETH_RELEASE  -shared -Wl,-soname,libnatspec.so -o libnatspec.so CMakeFiles/natspec.dir/NatspecExpressionEvaluator.cpp.o 
