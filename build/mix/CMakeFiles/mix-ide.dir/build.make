@@ -319,6 +319,10 @@ mix/qrc_web.cpp: ../mix/web.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_web.cpp"
 	cd /home/tzunami/git/farmer/build/mix && /usr/lib/x86_64-linux-gnu/qt5/bin/rcc -name web -o /home/tzunami/git/farmer/build/mix/qrc_web.cpp /home/tzunami/git/farmer/mix/web.qrc
 
+mix/qrc_web3.cpp: ../webthree-helpers/js/setup.js
+mix/qrc_web3.cpp: ../webthree-helpers/js/admin.js
+mix/qrc_web3.cpp: ../web3.js/dist/web3.js
+mix/qrc_web3.cpp: mix/web3.qrc.depends
 mix/qrc_web3.cpp: mix/web3.qrc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tzunami/git/farmer/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating qrc_web3.cpp"

@@ -1,8 +1,8 @@
 #pragma once
 
 #define ETH_PROJECT_VERSION "1.2.9"
-#define ETH_COMMIT_HASH 5d80ab10da366631cc2d5793201ed634064be2a0
-#define ETH_CLEAN_REPO 1
+#define ETH_COMMIT_HASH a119761f09b8a3d16dc4fb10de6297d360dfee19
+#define ETH_CLEAN_REPO 0
 #define ETH_BUILD_TYPE RelWithDebInfo
 #define ETH_BUILD_OS Linux
 #define ETH_BUILD_COMPILER g++

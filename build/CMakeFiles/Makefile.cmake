@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.2.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.2.2/CMakeSystem.cmake"
+  "mix/web3.qrc"
   "../libethereum/CMakeLists.txt"
   "../libethereum/ethkey/CMakeLists.txt"
   "../libethereum/ethminer/CMakeLists.txt"
