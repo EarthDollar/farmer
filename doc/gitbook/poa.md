@@ -181,7 +181,7 @@ There are a number of options to help you configure things to your particular si
 - `--listen-ip` Specify the IP that we are actually listening on (e.g. the local adaptor IP).
 - `--listen-port` Specify the port which we should listen on.
 - `--start-sealing` Start sealing blocks immediately.
-- `--jsonrpc` Enable JSON-RPC server on port 8545.
+- `--jsonrpc` Enable JSON-RPC server on port 8811.
 - `--jsonrpc-port` Enable JSON-RPC server on the given port.
 - `--jsonrpc-cors-domain` Configure the JSON-RPC server's CORS domain.
 

@@ -339,7 +339,7 @@ public:
 		_out
 #if ETH_JSONRPC
 			<< "Work farming mode:" << endl
-			<< "    -F,--farm <url>  Put into mining farm mode with the work server at URL (default: http://127.0.0.1:8545)" << endl
+			<< "    -F,--farm <url>  Put into mining farm mode with the work server at URL (default: http://127.0.0.1:8811)" << endl
 			<< "    --farm-recheck <n>  Leave n ms between checks for changed work (default: 500)." << endl
 			<< "    --no-precompute  Don't precompute the next epoch's DAG." << endl
 #endif // ETH_JSONRPC
@@ -599,7 +599,7 @@ private:
 	unsigned m_benchmarkTrials = 5;
 
 	/// Farm params
-	string m_farmURL = "http://127.0.0.1:8545";
+	string m_farmURL = "http://127.0.0.1:8811";
 	unsigned m_farmRecheckPeriod = 500;
 	bool m_precompute = true;
 	bool m_submitHashrate = true;
