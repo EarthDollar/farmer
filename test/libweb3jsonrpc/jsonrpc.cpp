@@ -58,7 +58,7 @@ struct Setup
 			return;
 		setup = true;
 
-		dev::p2p::NetworkPreferences nprefs(30303, std::string(), false);
+		dev::p2p::NetworkPreferences nprefs(20203, std::string(), false);
 		web3 = new WebThreeDirect("eth tests", "", true, {"eth", "shh"}, nprefs);
 		
 		web3->setIdealPeerCount(5);

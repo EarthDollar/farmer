@@ -384,7 +384,7 @@ BOOST_AUTO_TEST_CASE(nodeTableReturnsUnspecifiedNode)
 		return;
 
 	ba::io_service io;
-	NodeTable t(io, KeyPair::create(), NodeIPEndpoint(bi::address::from_string("127.0.0.1"), 30303, 30303));
+	NodeTable t(io, KeyPair::create(), NodeIPEndpoint(bi::address::from_string("127.0.0.1"), 20203, 20203));
 	if (Node n = t.node(NodeID()))
 		BOOST_REQUIRE(false);
 	else

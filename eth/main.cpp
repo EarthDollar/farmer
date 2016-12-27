@@ -1,4 +1,4 @@
-/*
+﻿/*
 	This file is part of cpp-ethereum.
 
 	cpp-ethereum is free software: you can redistribute it and/or modify
@@ -144,9 +144,9 @@ void help()
 
 		<< "    --public-ip <ip>  Force advertised public IP to the given IP (default: auto)." << endl
 		<< "    --listen-ip <ip>(:<port>)  Listen on the given IP for incoming connections (default: 0.0.0.0)." << endl
-		<< "    --listen <port>  Listen on the given port for incoming connections (default: 30303)." << endl
+		<< "    --listen <port>  Listen on the given port for incoming connections (default: 20203)." << endl
 		<< "    -r,--remote <host>(:<port>)  Connect to the given remote host (default: none)." << endl
-		<< "    --port <port>  Connect to the given remote port (default: 30303)." << endl
+		<< "    --port <port>  Connect to the given remote port (default: 20203)." << endl
 		<< "    --network-id <n>  Only connect to other hosts with this network id." << endl
 		<< "    --upnp <on/off>  Use UPnP for NAT (default: on)." << endl
 
@@ -362,10 +362,10 @@ int main(int argc, char** argv)
 	/// Networking params.
 	string clientName;
 	string listenIP;
-	unsigned short listenPort = 30303;
+	unsigned short listenPort = 20203;
 	string publicIP;
 	string remoteHost;
-	unsigned short remotePort = 30303;
+	unsigned short remotePort = 20203;
 
 	unsigned peers = 11;
 	unsigned peerStretch = 7;

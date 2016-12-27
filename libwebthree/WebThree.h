@@ -296,7 +296,7 @@ public:
 	size_t peerCount() const;
 
 	/// Connect to a particular peer.
-	void connect(std::string const& _seedHost, unsigned short _port = 30303);
+	void connect(std::string const& _seedHost, unsigned short _port = 20203);
 
 	/// Is the network subsystem up?
 	bool haveNetwork();

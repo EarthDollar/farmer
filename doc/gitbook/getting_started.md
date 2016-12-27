@@ -1,4 +1,4 @@
-# eth: The Command-Line Interface Client
+﻿# eth: The Command-Line Interface Client
 
 **Note: This chapter is for getting started with the command-line client `eth`. If you are interested only in AlethZero, move on to the next chapter.**
 
@@ -76,7 +76,7 @@ If you don't find a file with the same name as the UUID, then something is terri
 You'll now start seeing a little bit of information as it tries to connect to the network. You might see a line like:
 
 ```
-18:25:31|p2p  Hello: ++eth-v0.9.40-727666c2/EthDEV Server Frontier//RelWithDebInfo-Linux/g++/JIT V[ 4 ] ##979b7fa2… (eth,61) 30303
+18:25:31|p2p  Hello: ++eth-v0.9.40-727666c2/EthDEV Server Frontier//RelWithDebInfo-Linux/g++/JIT V[ 4 ] ##979b7fa2… (eth,61) 20203
 ```
 
 This is it telling you that it's managed to contact another node. After a little while it will begin to synchronise to the network. This will probably give you an awful lot of messages. If there are too many for you to handle, reduce them by changing the verbosity. We can set the verbosity to zero (the lowest and quietest) by typing:
